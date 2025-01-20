@@ -41,6 +41,7 @@ archive_public_key = "03aa7c205ddb5048408f48de46002c171a712613058c8ee12c73aeeed5
 snapshot_time_interval = 28800  # interval in seconds. Archive node uses this to create snapshot
 disable_snapshot = false
 rpc_disable_estimate_fee = false
+db_type = 1
 
 # DB Config
 [db.Postgres]
