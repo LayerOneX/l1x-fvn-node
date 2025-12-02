@@ -23,7 +23,7 @@ services:
         max-size: "2048m"
 
   v2_core_db:
-    image: postgres
+    image: postgres:16
     container_name: v2_core_db  # Optional for naming the container
     environment:
       POSTGRES_USER: <PLACEHOLDER_POSTGRES_USER>
